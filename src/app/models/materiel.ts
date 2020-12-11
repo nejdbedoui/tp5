@@ -10,4 +10,6 @@ export class Materiel {
     hautGamme: boolean; 
     quantite: number; 
     commentaires: Commentaire[];
+    constructor() { }
 }
+ 

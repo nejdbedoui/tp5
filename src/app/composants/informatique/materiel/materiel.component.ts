@@ -8,7 +8,7 @@ import { Materiel } from 'src/app/models/materiel';
 })
 export class MaterielComponent implements OnInit {
 
-  @Input("m") mat:Materiel;
+  @Input('m') mat: Materiel = new Materiel();
   constructor() { }
 
   ngOnInit(): void {

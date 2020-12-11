@@ -2,7 +2,7 @@
 
 <div class="container">
     <div class="row">
-        <ng-container *ngFor="let mat of materiels">
+        <ng-container *ngFor="let mat of materiel">
             <div class="col-4 pt-3" *ngIf="mat.quantite >0">
                <app-materiel [m]="mat"></app-materiel>
             </div>
